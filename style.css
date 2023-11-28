@@ -1,0 +1,110 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#header{
+    border: 3px solid rgb(194, 162, 103);
+    height: 250px;
+    background-image: url("lovelybody3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#heading{
+    margin-top: 0;
+    text-align:center;
+    background-color: #D3D3D3;
+    color:rgb(230, 178, 81);
+}
+#back{
+    background-image:url("lovely\ body2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+span{
+    margin-left: 10px;
+    font-size: 25px ;
+    text-decoration: underline;
+    color: yellowgreen;
+    font-style: calc();
+
+}
+span:hover{
+    margin-left: 10px;
+    font-size: 25px ;
+    text-decoration: underline;
+    color: blanchedalmond;
+    font-style: calc();
+
+}
+#p1 p{
+    margin-left: 15px;
+    color:blanchedalmond
+}
+#start{
+    border: 3px solid  #D3D3D3;
+    border-radius: 20px;
+    place-items: center;
+}
+#start:hover{
+    border: 3px solid rgb(238, 175, 59);
+    border-radius: 20px;
+}
+#hello p{
+    color: antiquewhite;
+    font-size: 15px;
+    
+}
+#content{
+    margin: 20px 80px;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid rgb(238, 175, 59);
+    border-radius: 20px;
+    background-color: bisque;
+    opacity: 70%;
+}
+
+#content:hover{
+    border: 3px solid yellow;
+    background-color: rgb(184, 221, 110);
+    opacity: 70%;
+    color:black;
+}
+
+button{
+    color:black;
+    background-color:rgb(240, 183, 142);
+    border-radius: 10px;
+    font-size: 15px;
+}
+button:hover{
+    color:black;
+    background-color: chocolate;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+footer {
+    background-color:rgb(150, 118, 71);
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: yellow;
+    text-decoration: none;
+}
